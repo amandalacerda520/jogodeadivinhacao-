@@ -5,7 +5,7 @@ print("#        ✨amanda✨     #")
 print("#########################")
 print("            ✨           ")
 
-numerossecreto= random.randrange(0,100)
+numeroSecreto= random.randrange(0,100)
 totaltentativas = 0 
 ponto = 100
 
@@ -37,5 +37,5 @@ for rodada in range (1, totaltentativas +1):
     acertou =chute == numeroSecreto
     maior = chute > numeroSecreto
     menor = chute < numeroSecreto
-    
+
 
